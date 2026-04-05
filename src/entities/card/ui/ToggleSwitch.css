@@ -1,0 +1,54 @@
+.container-revision {
+    padding-top: 10px;
+    width: 224px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lable-switch {
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.gui-switch {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 44px;
+    height: 22px;
+    background-color: #BFBFBF;
+    border-radius: 16px;
+    left: 2px;
+    transition: background-color 0.3s;
+}
+
+.checkbox {
+    position: absolute;
+    cursor: pointer;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.round {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 16px;
+    top: 2px;
+    left: 1px;
+    transition: left 0.3s ease;
+}
+
+.checkbox:checked+.round {
+    left: 25px;
+}
+
+.gui-switch:has(.checkbox:checked) {
+    background-color: #4cd964;
+
+}

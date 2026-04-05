@@ -1,0 +1,89 @@
+.card-filter-container {
+    width: 256px;
+    height: 298px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.flex-checkbox {
+    display: flex;
+    flex-direction: column;
+    /* padding: 8px; */
+    gap: 8px;
+}
+
+.category-padding {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.filter-off {
+    width: 256px;
+    height: 41px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1335px;
+    height: 590px;
+}
+
+
+.filter-and-resetfilter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-sort-container {
+    width: 1335px;
+    height: 56px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 16px;
+
+}
+
+.search-and-filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-cards,
+.list-cards {
+    box-sizing: content-box;
+    width: 1055px;
+    gap: 9.75px;
+    margin-left: 16px;
+    padding-right: 11px;
+    height: 566px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.list-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.overflow-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,17 @@
+.header {
+    width: 1336px;
+    height: 74px;
+    line-height: 1px;
+    padding: 8px;
+}
+
+.header>.title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header>.total {
+    font-size: 18px;
+    font-weight: 400;
+    color: #848388;
+}

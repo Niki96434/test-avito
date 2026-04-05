@@ -1,0 +1,44 @@
+.container-search {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.search-input,
+.btn-search {
+    box-sizing: border-box;
+}
+
+.search-input,
+.btn-search {
+    background-color: #F6F6F8;
+}
+
+.search-input {
+    width: 920px;
+    height: 32px;
+    background-color: #F6F6F8;
+    border-radius: 16px 0px 0px 16px;
+    border: 1px solid #F6F6F8;
+    padding-left: 12px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.btn-search {
+    background-image: url('./src/assets/Union.svg');
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    width: 38px;
+    height: 32px;
+    border: 0px solid #F4F4F6;
+    border-radius: 0px 12px 12px 0px;
+    left: 923px;
+}
+
+.btn-search:hover {
+    background-color: #cfcfcf;
+    transition: background-color 0.3s ease;
+}

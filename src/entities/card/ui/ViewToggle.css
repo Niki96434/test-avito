@@ -1,0 +1,41 @@
+.container-btn-view-toggle {
+    border: 0px solid white;
+}
+
+.grid-btn,
+.list-btn {
+    width: 36px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    border: 0px solid white;
+    appearance: none;
+    background-color: #F4F4F6;
+}
+
+.grid-btn {
+    border-radius: 8px 0px 0px 8px;
+    background-image: url('./../../../assets/Appstore_black.svg');
+
+}
+
+.grid-btn:checked {
+    background-image: url('./../../../assets/Appstore.svg');
+
+}
+
+.list-btn {
+    border-radius: 0px 8px 8px 0px;
+    background-image: url('./../../../assets/UnorderedList.svg');
+}
+
+.list-btn:checked {
+    background-image: url('./../../../assets/Vector_blue.svg');
+}
+
+.wrapper-btn-view-toggle {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}

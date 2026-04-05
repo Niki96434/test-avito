@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto-VariableFont_wdth\,wght.ttf') format('.ttf');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F5F8;
+}

@@ -1,0 +1,120 @@
+.ads-description {
+    width: 1335px;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.warning-container {
+    min-width: 512px;
+    height: 100%;
+    background-color: #F9F1E6;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: rgb(197, 197, 197) 0px 3px 5px;
+}
+
+.revision-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.img-warning {
+    width: 18px;
+    height: 18px;
+}
+
+.revision-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.img-container {
+    width: 480px;
+    height: 360px;
+}
+
+.img-cover {
+    width: fit-content;
+    height: 100%;
+}
+
+.revision-and-characteristics {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.characteristics {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2px;
+}
+
+.description-item {
+    width: 480px;
+    height: 132px;
+}
+
+.created-at {
+    line-height: 1.2px;
+}
+
+.item-view-descr {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+}
+
+.header-item {
+    width: 1335px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.icon-pencil {
+    background-image: url('../../../assets/Edit.svg');
+    width: 18px;
+    height: 18px;
+}
+
+.title-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-view-page {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-and-created-at {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-edit {
+    width: 170px;
+    height: 38px;
+    border: 1px solid #1890FF;
+    border-radius: 8px;
+    background-color: #1890FF;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-color: #FFFFFF;
+}
