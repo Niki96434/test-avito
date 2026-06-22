@@ -28,9 +28,33 @@
 - Помогает пользователю заполнять объявления: подсказывает название, описание, характеристики
 
 ### Запустить приложение:
-- Зайти в папку server: 
-npm install && port=8080 npm start
-npm install dotenv
-npm install --save-dev @types/dotenv
-- Зайти в любую папку для фронтенда: npm install && npm install axios && npm run dev
-- Можно смотреть!
+- Зайти в директорию server, установить зависимости:
+```
+cd server
+npm install
+```
+- Запустить сервер на порту 8080:
+```
+Для Linux/macOS: PORT=8080 npm start
+Для Windows: set PORT=8080&&npm start
+```
+
+- Зайти в корневую директорию для запуска клиентской части(фронтенд):
+```
+npm install
+npm run dev
+```
+
+<details>
+  <summary>Посмотреть скриншоты интерфейса</summary>
+  
+  ### Главная страница с товарами
+  <img src="./src/assets/home-page.png" width="600"/>
+
+  ### Редактирование товара
+  <img src="./src/assets/edit-item.png" width="600"/>
+
+  ### Форма редактирования
+  <img src="./src/assets/edit-form.png" width="600"/>
+  
+</details>
