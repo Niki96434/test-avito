@@ -30,5 +30,7 @@
 ### Запустить приложение:
 - Зайти в папку server: 
 npm install && port=8080 npm start
+npm install dotenv
+npm install --save-dev @types/dotenv
 - Зайти в любую папку для фронтенда: npm install && npm install axios && npm run dev
 - Можно смотреть!

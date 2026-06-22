@@ -1,8 +1,10 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import Fastify from 'fastify';
 
-import items from 'data/items.json' with { type: 'json' };
-import { Item } from 'src/types.ts';
-import { ItemsGetInQuerySchema, ItemUpdateInSchema } from 'src/validation.ts';
+import items from './data/items.json' with { type: 'json' };
+import type { Item } from './src/types.ts';
+import { ItemsGetInQuerySchema, ItemUpdateInSchema } from './src/validation.ts';
 import { treeifyError, ZodError } from 'zod';
 import { doesItemNeedRevision } from './src/utils.ts';
 import cors from '@fastify/cors';
@@ -153,7 +155,6 @@ fastify.put<ItemUpdateRequest>('/items/:id', (request, reply) => {
     });
 
     ITEMS[itemIndex] = {
-      id: ITEMS[itemIndex].id,
       createdAt: ITEMS[itemIndex].createdAt,
       updatedAt: new Date().toISOString(),
       ...parsedData,
@@ -170,7 +171,7 @@ fastify.put<ItemUpdateRequest>('/items/:id', (request, reply) => {
   }
 });
 
-const port = Number(process.env.port) ?? 8080;
+const port = process.env.VITE_PORT ? Number(process.env.VITE_PORT) : 8080;
 
 fastify.listen({ port }, function (err, _address) {
   if (err) {

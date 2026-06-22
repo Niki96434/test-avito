@@ -13,7 +13,6 @@ import Card from '../entities/card/ui/Card';
 import ListCards from '../entities/card/ui/ListCards';
 import { filterItems } from '../entities/card/api/filterItems';
 
-
 export default function ListView() {
 
     const [filters, setFilters] = useState<FilterState>({
