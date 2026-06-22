@@ -6,7 +6,7 @@ import HeaderListView from '../entities/card/ui/HeaderListView';
 import SearchAd from '../entities/card/ui/SearchAd';
 import ViewToggle from '../entities/card/ui/ViewToggle';
 import SortForm from '../entities/card/ui/SortForm';
-import Checkbox from '../entities/card/ui/Checkbox';
+import Checkbox from './../shared/ui/Checkbox';
 import ToggleSwitch from '../entities/card/ui/ToggleSwitch';
 import ResetFilterBtn from '../entities/card/ui/ResetFilterBtn';
 import Card from '../entities/card/ui/Card';
